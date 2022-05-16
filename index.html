@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admission form</title>
+</head>
+<link rel="stylesheet" href="style.css">
+
+<body>
+    <div class="form">
+    <form>
+        <div class="photo">
+        <img src="\admission form\maa saraswati 2.png">
+       </div>
+        <h1>SARASWATI VIDYA MANDIR</h1>
+        <div class="p">
+        <h5>Keshav nagar Maharajganj</h5>
+        <h5>Siwan,BIHAR (841238)</h5>
+    </div>
+        <hr>
+        <h2>Admission Form</h2>
+        <hr>
+        <h4 >Personal Details:-</h4>
+        <hr>
+        <p>Name:
+           <input type="text"placeholder="Enter your Name" required>
+        </p>
+        <p>Father's Name:
+           <input type="text"placeholder="Enter your's Father name"required>
+        </p>
+        <p>Mother's Name:
+            <input type="text"placeholder="Enter your's Mother name"required>
+        </p>
+        <p>Date of Birth
+            <input type="date"placeholder="DOB"required>
+        </p>
+        <fieldset>
+            <legend>
+                Gender
+            </legend>
+            <p>
+                Male<input type="radio" value="Male" name="Gender"id="male">
+               Female <input type="radio" value="Female" name="Gender"id="female">
+             </p>
+            </fieldset>
+            <p>Address:
+              <textarea name="address"id="address"required rows="3"cols="100"></textarea>
+            </p>
+             <p>Nationality:
+                 <select name="nation"id="country">
+                     <option>INDIA</option>
+                     <option>NRI</option>
+                 </select>
+             </p>
+             <p>Character Certificate:
+                <select name="category"id="cast">
+                <option value="General">General</option>
+                <option value="obc">OBC-NCL</option>
+                <option value="sc">SC</option>
+                <option value="st">ST</option>
+            </select>
+       </p>
+             <p>
+                 Aadhar card number:
+                 <input type="number"placeholder="1111-2222-3333"required>
+             </p>
+             <p>Mobile number:
+               <input type="number"placeholder="9876543210"required>
+             </p>
+             <p>Email:
+                 <input type="email"placeholder="abc.12@gmail.com">
+             </p>
+             <p>photo:
+                 <input type="file">
+             </p>
+             <p>Adhar card:
+                 <input type="file">
+             </p>
+             <hr>
+             <h3>Academic Details:-</h3>
+             <hr>
+             <p>Previous School Name:
+                 <input type="text"placeholder="School Name"required>
+             </p>
+             <p>Previous School's Address:
+                 <textarea name="school"id="school address"rows="3"cols="100"></textarea> 
+             </p>
+             <p>Transfer Certificate:
+               <input type="file">
+             </p>
+               <p>Character Certificate
+                   <input type="file">
+               </p>
+
+             <p>Select Class to be Admitted:
+                 <select name="class"id="class">
+                     <option > I </option>
+                     <option >II </option>
+                     <option >III </option>
+                     <option >IV </option>
+                     <option >V </option>
+                     <option >VI </option>
+                     <option >VII </option>
+                     <option >VIII </option>
+                     <option >IX </option>
+                     <option >X </option>
+                     <option >XI </option>
+                     <option >XII </option>
+                 </select>
+            <p>Select Subjects:
+               <br> <input type="checkbox"value="maths"name="subject"id="maths"/>Mathematics <br>
+                     <input type="checkbox"value="physics"name="subject"id="phy"/>Physics<br>
+            
+                     <input type="checkbox"value="chemistry"name="subject"id="chem"/>Chemistry<br>
+                     <input type="checkbox"value="biology"name="subject"id="bio"/>Biology<br>
+                     <input type="checkbox"value="english"name="subject"id="english"/>English<br>
+                     
+                     <input type="checkbox"value="hindi"name="subject"id="hindi"/>Hindi<br>
+                     <input type="checkbox"value="sanskrit"name="subject"id="sanskrit"/>Sanskrit<br>
+                     <input type="checkbox"value="cs"name="subject"id="cs"/>Computer Science<br>
+
+             </p>
+             <br/>
+             <br/>
+             <input type="submit">
+    </form>
+</div>
+</body>
+</html>
